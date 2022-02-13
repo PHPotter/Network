@@ -1,0 +1,20 @@
+{
+    "name": "potter/network",
+    "description": "Open Source PHP 8 Networking",
+    "version": "0.0.1",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jay Potter",
+            "email": "jay@jaypotter.ca"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Potter\\Network\\": "Potter/Network/"}
+    },
+    "require": {
+        "php": "^8.0",
+        "potter/throwable": "0.0.1"
+    }
+}
