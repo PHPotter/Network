@@ -11,7 +11,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {"Potter\\Network\\": "Potter/Network/"}
+        "psr-4": {
+            "Potter\\Network\\": "Potter/Network/"
+        }
     },
     "require": {
         "php": "^8.0",
